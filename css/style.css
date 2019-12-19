@@ -1,0 +1,177 @@
+.fl-left{
+	float: left;
+}
+.fl-right{
+	float: right;
+}
+.top{
+	width: 100%;
+	height: 60px;
+	background-color: black;
+}.container{
+	width: 1170px;
+	margin: 0px auto;
+}
+.giohang p{
+	color: white;
+	padding: 0;
+	margin-top: 5px;
+}
+.giohang{
+	float: right;
+	text-align: center;
+}
+.giohang i.fa{
+	display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+.giohang a p:hover{
+	color: orangered;
+}
+.giohang a i:hover{
+	color: orangered;
+}
+.logo{
+   text-align: center;
+   border-bottom: 1px solid #DAD9D9;
+}
+.logo a{
+	text-decoration: none;
+	
+}
+.logo h1{
+	color: black;
+	font-size: 21px;
+	font-weight: bold;
+	margin: 25px;
+}
+#menu-left{
+	width: 70%;
+	height: 50px;
+	
+
+}
+#menu-right{
+	width: 30%;
+	height:50px;
+	
+	
+}
+#menu-left ul{
+	list-style: none;
+}
+#menu-left ul li{
+	float: left;
+}
+#menu-left ul li a{
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 20px;
+	margin-right: 15px;
+	color: black;
+	padding:15px;
+	font-weight: bold;
+
+}
+#menu-left ul li a:hover{
+	color: orangered;
+	text-decoration: underline;
+
+}
+#form-search{
+	position: relative;
+	padding: 12px 0px;
+	margin-left: 20px;
+}
+
+#key-search{
+	width: 180px;
+	height: 35px;
+	color: #e1e1e1;
+	font-style: italic;
+	border: 1px solid #e1e1e1;
+	border-radius: 5px;
+	padding-left: 15px;
+}
+
+#submit{
+	content: "\f002";
+	font-family: Fontawesome;
+	font-size: 13px;
+	line-height: 20px;
+	border: none;
+	background: #fff;
+	cursor: pointer;
+	padding: 6px 13px;
+	left: 76%;
+    top: 23%;
+	position: absolute;
+}
+#home img{
+	width: 100%;
+	height: 333px;
+	padding-top: 10px;
+}
+.about{
+	padding-top: 50px;
+	height:400px;
+}
+.spnb{
+	float: left;padding-right: 40px;
+
+}
+
+.product .oneproduct{
+	border: 1px solid #DAD9D9;
+	text-align: center;
+	float: left;
+	margin-right: 31px;
+	margin-bottom: 15px;
+}
+.product .oneproduct .name,.product .oneproduct .xemthu{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+.thongtin .gia i{
+	color: orangered;
+    margin-right: 10px;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+.thongtin .gia{
+	font-size: 16px;
+	color: black;
+}
+.product .oneproduct .thongtin a span:hover{
+	color: blue;
+}
+.info{
+	float: left;
+	width: 25%;
+	height: auto;
+}
+.info ul{
+	list-style-type: none;
+}
+.info ul li{
+	margin-top: 10px;
+}
+.info ul li a{
+	text-decoration: none;
+	color: black;
+}
+.info ul li a:hover{
+	color: blue;
+}
+.childFooter{
+	margin-top: 10px;
+}
+footer{
+	margin-top: 20px;
+}
