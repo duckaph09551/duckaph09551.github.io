@@ -1,0 +1,51 @@
+#content{
+	margin-top: 30px;
+}
+#content .post-thumb img{
+	width: 547px;
+	height: 360px;
+	margin-bottom: 30px;
+	margin-right: 20px;
+	border-radius: 50px;
+	box-shadow: 0 0 10px #e17055;
+}
+#content .video iframe{
+	margin-top: 30px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 35px;
+	border-radius: 20px;
+}
+.details button{
+	padding: 9px;
+    border-radius: 4px;
+    color: red;
+    background: yellow;
+    font-size: 16px;
+}
+.details p{
+	font-size: 16px;
+	font-family: Roboto;
+	padding-bottom: 13px;
+}
+table{
+	width: 100%;
+	height: auto;
+}
+table, th, td {
+  border: 2px solid #549CD4;
+  border-collapse: collapse;
+  text-align: center;
+  font-weight: bold;
+}
+th, td {
+  padding: 15px;
+}
+th{
+	color: white;
+	background-color: #0170BF;
+}
+table tr:nth-child(even){
+	background-color: #F1F1F1;
+}

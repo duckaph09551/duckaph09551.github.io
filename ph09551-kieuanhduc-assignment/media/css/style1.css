@@ -1,0 +1,17 @@
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+.thongtin h3{
+    font-weight: bold;
+    color: blue;
+    font-size: 23px;
+}
+.thongtin{
+	margin-right: 10px;
+	width: 70%;
+}
+.khoi a img{
+	float: left;
+	margin-right: 20px;
+}

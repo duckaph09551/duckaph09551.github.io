@@ -1,0 +1,21 @@
+#wp-content #content h1{
+	font-size: 23px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: 80px;
+}
+#wp-content #content h1:hover{
+	color: #10ACC5;
+	text-transform: all 0.25s;
+}
+#wp-content #content h3{
+	font-size: 19px;
+	font-weight: bold;
+	margin: 21px;
+	font-style: italic;
+}
+#wp-content #content h3:hover{
+	color: #10ACC5;
+	text-transform: all 0.25s;
+}

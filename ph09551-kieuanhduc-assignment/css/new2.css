@@ -1,0 +1,13 @@
+.content-data .content-detail h3{
+	font-weight: bold;
+	font-size: 19px;
+}
+.content-data .content-detail h3:hover{
+	color: #10ACC5;
+}
+.content-data .content-detail p:hover{
+	text-decoration: underline;
+	font-size: 18px;
+	font-weight: 500;
+	font-style: italic;
+}

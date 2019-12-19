@@ -1,0 +1,54 @@
+#contact iframe{
+	margin: 10px 0px;
+}
+#contact .contactInfo p{
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Roboto;
+	padding-top: 30px;
+	font-style: italic;
+}
+#contact .contactInfo input{
+	margin: 10px 0px;
+	padding: 10px;
+	border-radius: 3px;
+}
+#contact .contactInfo textarea{
+	margin: 10px 0px;
+	padding: 10px;
+	border-radius: 3px;
+}
+#contact .contactInfo button{
+     padding: 10px;
+     border-radius: 3px;
+     background-color: #f8c291;
+}
+#contact .contactInfo p.text{
+	font-size: 14px;
+	color: red;
+	font-family: roboto;
+	font-style: italic;
+	margin-bottom: 30px;
+}
+input , textarea{
+	box-shadow: 0 0 5px #fdcb6e;
+}
+form{
+	/*border-bottom: 6px double #f8c291;*/
+}
+.school{
+	margin-top: 30px;
+	border: 0px solid #535c68;
+	border-radius: 10px;
+	padding-right: 10px;
+	box-shadow: 0 0 10px #f0932b;
+}
+.title{
+	padding:20px;
+}
+.title p,h1{
+	margin-bottom: 10px;
+}
+.title p{
+	font-size: 14px;
+}

@@ -1,0 +1,28 @@
+#post-content{
+	font-family: Roboto Condensed;
+	font-size: : 18px;
+	line-height: 30px;
+	background: #fbeebe;
+	margin-top: 10px;
+}
+h3{padding: 16px;}
+
+.detail p{
+	text-indent: 20px;
+	padding: 10px;
+	margin-right: 33px;
+	margin-left: 33px;
+}
+#post-content img{
+	max-width:960px;
+	height:452px;
+	overflow: hidden;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+#post-content audio{
+	width: 150px;
+	height: 50px;
+}

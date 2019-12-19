@@ -1,0 +1,192 @@
+
+#transfer-link{
+	background:#E5E1E1; 
+	margin: 10px 0px;
+	border-radius: 3px;
+	padding: 0px 10px;
+}
+
+#transfer-link li {
+	display: inline-block;
+}
+
+#transfer-link li a{
+	color: #000000;
+	font-size: 9px;
+	line-height: 20px;
+	font-weight: 500;
+	padding: 5px 8px 5px 0px;
+	display: block;
+}
+
+#transfer-link .active a{
+	color: #6b6b6b;
+	font-size: 9px;
+	line-height: 20px;
+	font-weight: 400;
+	padding-left: 12px;
+	position: relative;
+	display: block;
+}
+
+#transfer-link .active a:before{
+	content: "\f105";
+	font-size: 9px;
+	font-family: FontAwesome;
+	font-weight: 400;
+	padding-right: 8px; ;
+	position: absolute;
+	left: 0;
+	display: block;
+	border-radius: 10px;
+}
+.icons ul li a.google:before{
+	font-family: FontAwesome;
+	font-size: 14px;
+	position: absolute;
+	right: -9px;
+	content: "\f1a0";
+	top: -22px;
+	color: #DB4941;
+	border: 1px solid #ED080D;
+	padding: 5px;
+	margin-right: -1px;
+	background:#FCDEDE;
+	border-radius: 10px;
+}
+.icons ul li a.facebook:before{
+	font-family: FontAwesome;
+	font-size: 14px;
+	position: absolute;
+	right: 46px;
+	content: "\f082";
+	top: -22px;
+	border: 1px solid #ED080D;
+	padding: 5px;
+	margin-right: 15px;
+	background:#FCDEDE;
+	border-radius: 10px;
+}
+.icons ul li a.instagram:before{
+	font-family: FontAwesome;
+	font-size: 14px;
+	position: absolute;
+	right: 17px;
+	content: "\f16d";
+	top: -22px;
+	color: #ED086C;
+	border: 1px solid #ED080D;
+	padding: 5px;
+	margin-right: 7px;
+	background:#FCDEDE;
+	border-radius: 10px;
+}
+#coure-content{
+	padding:30px;
+}
+.col-25{
+	width: 25%;
+	float: left
+}
+.prod{
+	border-radius: 10px;
+	box-shadow: 0 0 5px gray;
+	margin: 5px;
+	padding: 15px;
+	text-align: center;
+	position: relative;
+}
+.prod>.name a{
+	text-transform: uppercase;
+	color: orangered;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 5px;
+    display: block;
+    position: relative;
+}
+.prod>.name a:hover{
+	font-style: italic;
+	text-decoration: underline;
+}
+.prod>.image{
+	max-width: 98%;
+	height: 150px;
+	margin-bottom: 10px;
+	margin-bottom: 30px;
+
+	
+}
+.prod>.price{
+	position: absolute;
+	left: 5px;
+	bottom: 12px;
+	font-family: Impact;
+	font-size: 12px;
+	color: #FF0005;
+	box-shadow: 0 0 10px #FFF700;
+}
+.prod>.icons{
+	position: absolute;
+	right: 17px;
+	bottom: 11px;
+	width: 25px;
+}
+.prod>.new-icon{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#main-menu{
+	background:#10ACC5;
+	border-radius: 10px;
+}
+#main-menu li{
+	display: inline-block;
+}
+ul#main-menu li a{
+	color: #111111;
+	font-size: 17px;
+	line-height: 22px;
+	font-weight: bold;
+	font-variant: small-caps;
+	padding: 14px 38px;
+	display: block;
+	color: #fff;
+}
+ul#main-menu li a:hover{
+	background-color: #0E9AB1;
+	text-decoration: all 0.25s;
+}
+#main-menu li .sub-menu{
+	position: absolute;
+	width: 240px;
+	background-color: #10ACC5;
+	display: none;
+}
+#main-menu .sub-menu li:hover>ul{
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 100%;
+}
+#main-menu .sub-menu li a:hover:after{
+	content: "\f0da";
+	font-family: FontAwesome;
+	font-size: 16px;
+	position: absolute;
+	right: 15px;
+}
+
+#main-menu .sub-menu li{
+    border: 1px solid #fff;
+    width: 240px;
+}
+#main-menu li:hover>.sub-menu{
+	display: block;
+}
+
+border-right: 1px solid #e1e1e1;
+	padding-right: 25px;
